@@ -6,22 +6,23 @@
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-Comp 484 
-HTML Syntax
+<h1>Comp 484</h1>
+<h2>HTML Syntax</h2>
 <ul>
   <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
   <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
+  <li><a href="structure.html" title="Structuring pages">Structuring pages</a></li>
   <li><a href="links.html" title="Creating links">Creating links</a></li>
   <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
   <li><a href="next.html" title="Next steps">Next steps</a></li>
 </ul>
 <p>Because HTML is often the people&rsquo;s first experience with coding, there can be a fair amount of apprehension about learning it. Thankfully, HTML syntax is relatively simple and easy to learn. Most people can learn the basics of HTML and begin coding it within the same day.</p>
-A markup language
+<h3>A markup language</h3>
 <p>HTML is a markup language. That means that content on the page is &ldquo;marked up&rdquo; by tags which identify the content inside of them. A paragraph, for example, can be identified by placing the &ldquo;&lt;p&gt;&rdquo; opening tag prior to the paragraphs content and the &ldquo;&lt;/p&gt;&rdquo; closing tag at the end of a paragraph. The full paragraph would look like this:</p>
 <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
 <p>Tags consist of a left-angle bracket (&lt;) followed by a character or characters that identify the tag (the &ldquo;p&rdquo; for paragraph) and a closing right-angle bracket (&gt;). The closing tags for an element are exactly the same as an opening tag, except that a forward slash (/) will precede the tags characters.<br>
   Although most elements require an opening and a closing tag, the closing tag is optional for some elements and not required at all for others. While there are exceptions to the rule, for the most part any element that contains content inside the opening and closing tags also requires a closing tag.</p>
-Basic document structure
+<h3>Basic document structure</h3>
 <p>The core of all HTML documents revolves around three basic tags. First, an html tag (&lt;html&gt;) is required to identify the document as an HTML file. Directly inside the html tag, you&rsquo;ll find the head element (&lt;head&gt;). The head of a document is where you&rsquo;ll find the document&rsquo;s metadata, the document title, and links to external resources such as style sheets and scripts. A good way to think about the document&rsquo;s head is that it doesn&rsquo;t contain any of the page&rsquo;s <em>visual</em> content rather it contains information about the document and the resources that help make the page work. Directly after the document&rsquo;s head, you&rsquo;ll find its body (&lt;body&gt;). The body is where you&rsquo;ll find all of the page&rsquo;s actual content. Headings, paragraphs, images, lists, tables, and other content will be located here. At its most basic, an HTML file would look like this:</p>
 <pre><code>
 &lt;html&gt;     
